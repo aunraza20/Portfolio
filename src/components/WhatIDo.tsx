@@ -87,22 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND</h3>
-              <h4>Building Interactive UIs</h4>
+              <h3>WEB DEVELOPMENT</h3>
+              <h4>Full Stack & Web Redesign</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                Crafting performant, responsive interfaces and robust server architectures.
+                From complete builds to web platform redesigns, I deliver pixel-perfect experiences.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">React.js</div>
-                <div className="what-tags">Angular</div>
                 <div className="what-tags">Next.js</div>
+                <div className="what-tags">Node.js</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">Web Redesign</div>
+                <div className="what-tags">UI/UX Revamp</div>
+                <div className="what-tags">Performance Eval</div>
+                <div className="what-tags">Database Architecture</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,22 +126,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Scalable Server Architecture</h4>
+              <h3>DESIGN & SEO</h3>
+              <h4>Graphic Design & Search Engine Optimization</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Designing compelling graphics for digital platforms and optimizing platforms 
+                to rank high on search engines with targeted SEO strategies.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
-                <div className="what-tags">Python</div>
+                <div className="what-tags">Graphic Design</div>
+                <div className="what-tags">Adobe Photoshop</div>
+                <div className="what-tags">Illustrator</div>
+                <div className="what-tags">On-Page SEO</div>
+                <div className="what-tags">Off-Page SEO</div>
+                <div className="what-tags">Google Analytics</div>
+                <div className="what-tags">Brand Identity</div>
+                <div className="what-tags">Content Strategy</div>
               </div>
               <div className="what-arrow"></div>
             </div>
