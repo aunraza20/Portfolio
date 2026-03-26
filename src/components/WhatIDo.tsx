@@ -126,21 +126,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN & SEO</h3>
-              <h4>Graphic Design & Search Engine Optimization</h4>
+              <h3>DESIGN & CONTENT</h3>
+              <h4>Graphic Design, Video Editing & SEO</h4>
               <p>
-                Designing compelling graphics for digital platforms and optimizing platforms 
-                to rank high on search engines with targeted SEO strategies.
+                Crafting compelling graphics, editing engaging videos, and optimizing platforms 
+                to rank high on search engines with targeted SEO and copywriting strategies.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Graphic Design</div>
+                <div className="what-tags">Video Editing</div>
+                <div className="what-tags">Copywriting</div>
+                <div className="what-tags">Premiere Pro & After Effects</div>
+                <div className="what-tags">On-Page/Off-Page SEO</div>
                 <div className="what-tags">Adobe Photoshop</div>
                 <div className="what-tags">Illustrator</div>
-                <div className="what-tags">On-Page SEO</div>
-                <div className="what-tags">Off-Page SEO</div>
-                <div className="what-tags">Google Analytics</div>
-                <div className="what-tags">Brand Identity</div>
                 <div className="what-tags">Content Strategy</div>
               </div>
               <div className="what-arrow"></div>

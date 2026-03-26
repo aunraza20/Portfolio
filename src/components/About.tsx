@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Web Developer based in Siegen, Germany, currently pursuing my Bachelors from Siegen University. 
+          Full Web Developer based in Siegen, Germany, graduated from University of Siegen. 
           I am fluent in English, Urdu, and German. Passionate about creating high-performance, 
           production-ready web solutions from concept to deployment.
         </p>

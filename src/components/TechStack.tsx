@@ -11,18 +11,41 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
-const textureLoader = new THREE.TextureLoader();
-const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+const skills = [
+  "WordPress",
+  "Tailwind",
+  "CSS3",
+  "Node.js",
+  "React.js",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "SEO",
+  "Design"
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+
+const createTextTexture = (text: string) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 1024;
+  canvas.height = 1024;
+  const ctx = canvas.getContext("2d");
+  if (ctx) {
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, 1024, 1024);
+    
+    ctx.fillStyle = "#09090b";
+    ctx.font = "bold 150px ui-sans-serif, system-ui, sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(text, 512, 512);
+  }
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.wrapS = THREE.RepeatWrapping;
+  texture.repeat.set(2, 1); 
+  return texture;
+};
+
+const textures = skills.map((skill) => createTextTexture(skill));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
@@ -151,6 +174,7 @@ const TechStack = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  
   const materials = useMemo(() => {
     return textures.map(
       (texture) =>
@@ -158,7 +182,7 @@ const TechStack = () => {
           map: texture,
           emissive: "#ffffff",
           emissiveMap: texture,
-          emissiveIntensity: 0.3,
+          emissiveIntensity: 0.2,
           metalness: 0.5,
           roughness: 1,
           clearcoat: 0.1,
@@ -167,8 +191,8 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="techstack">
-      <h2> My Techstack</h2>
+    <div className="techstack section-container" id="techstack">
+      <h2 className="title" style={{ textAlign: "center", position: "absolute", width: "100%", top: "120px" }}> My Techstack</h2>
 
       <Canvas
         shadows

@@ -4,7 +4,7 @@ const Career = () => {
   return (
     <div className="career-section section-container">
       <div className="career-container">
-        <h2>
+        <h2 className="title">
           My career <span>&</span>
           <br /> experience
         </h2>
@@ -20,7 +20,7 @@ const Career = () => {
               </div>
               <h3>2019 - NOW</h3>
             </div>
-            <p>
+            <p className="para">
               Working as a full web developer, building modern, scalable, and interactive 
               web applications using modern frameworks and technologies.
             </p>
@@ -33,7 +33,7 @@ const Career = () => {
               </div>
               <h3>2016 - 2019</h3>
             </div>
-            <p>
+            <p className="para">
               Managed IT projects and delivered remote IT services online, ensuring 
               successful project execution and client satisfaction.
             </p>
