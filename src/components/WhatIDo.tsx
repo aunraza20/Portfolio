@@ -28,9 +28,9 @@ const WhatIDo = () => {
     <div className="whatIDO">
       <div className="what-box">
         <h2 className="title">
-          W<span className="hat-h2">HAT</span>
+          W<span className="hat-h2">AS</span>
           <div>
-            I<span className="do-h2"> DO</span>
+            I<span className="do-h2">CH TUE</span>
           </div>
         </h2>
       </div>
@@ -87,22 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>WEB DEVELOPMENT</h3>
-              <h4>Full Stack & Web Redesign</h4>
+              <h3>IT-SUPPORT</h3>
+              <h4>Technischer Support &amp; Anwenderbetreuung</h4>
               <p>
-                Crafting performant, responsive interfaces and robust server architectures.
-                From complete builds to web platform redesigns, I deliver pixel-perfect experiences.
+                Unterstützung von Anwendern bei technischen Problemen, Einrichtung und Wartung von
+                Hard- und Software sowie strukturierte Bearbeitung von IT-Anfragen und Tickets.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Kompetenzen &amp; Tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Web Redesign</div>
-                <div className="what-tags">UI/UX Revamp</div>
-                <div className="what-tags">Performance Eval</div>
-                <div className="what-tags">Database Architecture</div>
+                <div className="what-tags">MS Office</div>
+                <div className="what-tags">IT-Support</div>
+                <div className="what-tags">Jira</div>
+                <div className="what-tags">Dokumentation</div>
+                <div className="what-tags">Datenverwaltung</div>
+                <div className="what-tags">Troubleshooting</div>
+                <div className="what-tags">Helpdesk</div>
+                <div className="what-tags">Anwenderbetreuung</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,22 +126,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN & CONTENT</h3>
-              <h4>Graphic Design, Video Editing & SEO</h4>
+              <h3>IT-MANAGEMENT</h3>
+              <h4>Projektmanagement &amp; Prozessoptimierung</h4>
               <p>
-                Crafting compelling graphics, editing engaging videos, and optimizing platforms 
-                to rank high on search engines with targeted SEO and copywriting strategies.
+                Planung, Koordination und Nachverfolgung von IT-Projekten. Optimierung digitaler
+                Arbeitsprozesse sowie strukturierte Kommunikation mit internen und externen
+                Ansprechpartnern.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Kompetenzen &amp; Tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Graphic Design</div>
-                <div className="what-tags">Video Editing</div>
-                <div className="what-tags">Copywriting</div>
-                <div className="what-tags">Premiere Pro & After Effects</div>
-                <div className="what-tags">On-Page/Off-Page SEO</div>
-                <div className="what-tags">Adobe Photoshop</div>
-                <div className="what-tags">Illustrator</div>
-                <div className="what-tags">Content Strategy</div>
+                <div className="what-tags">Projektplanung</div>
+                <div className="what-tags">Jira</div>
+                <div className="what-tags">Terminverfolgung</div>
+                <div className="what-tags">Prozessoptimierung</div>
+                <div className="what-tags">Berichterstattung</div>
+                <div className="what-tags">Koordination</div>
+                <div className="what-tags">Digitalisierung</div>
+                <div className="what-tags">Agiles Arbeiten</div>
               </div>
               <div className="what-arrow"></div>
             </div>

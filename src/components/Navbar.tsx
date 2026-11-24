@@ -36,26 +36,26 @@ const Navbar = () => {
           SN
         </a>
         <a
-          href="mailto:aun@oneteninnovations.com"
+          href="mailto:aunr1404@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          aun@oneteninnovations.com
+          aunr1404@gmail.com
         </a>
         <ul>
           <li>
             <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
+              <HoverLinks text="ÜBER MICH" />
             </a>
           </li>
           <li>
             <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
+              <HoverLinks text="ERFAHRUNG" />
             </a>
           </li>
           <li>
             <a data-href="#contact" href="#contact">
-              <HoverLinks text="CONTACT" />
+              <HoverLinks text="KONTAKT" />
             </a>
           </li>
         </ul>

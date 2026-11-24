@@ -12,16 +12,18 @@ import {
 } from "@react-three/rapier";
 
 const skills = [
-  "WordPress",
-  "Tailwind",
-  "CSS3",
-  "Node.js",
-  "React.js",
-  "Next.js",
-  "TypeScript",
-  "JavaScript",
-  "SEO",
-  "Design"
+  "MS Office",
+  "Jira",
+  "IT-Support",
+  "Dokumentation",
+  "Prozessoptimierung",
+  "Digitalisierung",
+  "Kommunikation",
+  "Datenverwaltung",
+  "Teamarbeit",
+  "Projektplanung",
+  "IT-Beratung",
+  "Präsentation",
 ];
 
 const createTextTexture = (text: string) => {
@@ -192,7 +194,7 @@ const TechStack = () => {
 
   return (
     <div className="techstack section-container" id="techstack">
-      <h2 className="title" style={{ textAlign: "center", position: "absolute", width: "100%", top: "120px" }}> My Techstack</h2>
+      <h2 className="title" style={{ textAlign: "center", position: "absolute", width: "100%", top: "120px" }}>Meine Kompetenzen</h2>
 
       <Canvas
         shadows
