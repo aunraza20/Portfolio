@@ -66,7 +66,7 @@ const Work = () => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2 className="title">
-          My <span>Work</span>
+          Meine <span>Projekte</span>
         </h2>
 
         <div className="carousel-wrapper">
@@ -109,7 +109,7 @@ const Work = () => {
                           {project.category}
                         </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Tools &amp; Schwerpunkte</span>
                           <p>{project.tools}</p>
                         </div>
                       </div>
